@@ -1,0 +1,99 @@
+[gd_resource type="Theme" load_steps=8 format=3 uid="uid://t4fnqfcts68g"]
+
+[ext_resource type="FontFile" uid="uid://cx701b32gfg0t" path="res://addons/godot_feel/ui/LondrinaSolid-Regular.ttf" id="1_7xel7"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5t54r"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(1, 1, 1, 0.75)
+draw_center = false
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+expand_margin_left = 2.0
+expand_margin_top = 2.0
+expand_margin_right = 2.0
+expand_margin_bottom = 2.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nn7pc"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.225, 0.225, 0.225, 0.6)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sacwg"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.225, 0.225, 0.225, 0.6)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4ucai"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.1, 0.1, 0.1, 0.6)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_arbfk"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0, 0, 0, 0.6)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_flsf7"]
+bg_color = Color(0.2, 0.203922, 0.203922, 1)
+border_width_left = 8
+border_width_top = 8
+border_width_right = 8
+border_width_bottom = 8
+border_color = Color(1, 1, 0.8, 1)
+anti_aliasing = false
+
+[resource]
+default_font = ExtResource("1_7xel7")
+default_font_size = 30
+CheckButton/styles/focus = SubResource("StyleBoxFlat_5t54r")
+CheckButton/styles/hover = SubResource("StyleBoxFlat_nn7pc")
+CheckButton/styles/hover_pressed = SubResource("StyleBoxFlat_sacwg")
+CheckButton/styles/normal = SubResource("StyleBoxFlat_4ucai")
+CheckButton/styles/pressed = SubResource("StyleBoxFlat_arbfk")
+Label/constants/line_spacing = 0
+Label/font_sizes/font_size = 30
+ProgressBar/styles/background = SubResource("StyleBoxFlat_flsf7")
+ProgressBar/styles/fill = null
+TextEdit/colors/background_color = Color(1, 1, 0.901961, 1)
+TextEdit/colors/caret_color = Color(0.2, 0.203922, 0.203922, 1)
+TextEdit/colors/font_color = Color(0.2, 0.203922, 0.203922, 1)
+TextEdit/colors/font_placeholder_color = Color(0.2, 0.203922, 0.203922, 0.431373)
+TextEdit/constants/caret_width = 60
